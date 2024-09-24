@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery</title>
+    <!-- Adicionando Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #janela { 
+            position: absolute; 
+            width: 300px; 
+            height: 300px; 
+            background-color: #069; 
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        function moverObjeto() {
+            $('#janela').animate({left: 300}, 100);
+        }
+        $(function() {
+            $('#direita').click(moverObjeto);
+        });
+    </script>
+</head>
+<body>
+    <!-- Adicionando o container do Bootstrap -->
+    <div class="container mt-5">
+        <input type="button" id="direita" class="btn btn-primary" value="Mover para Direita">
+        <div id="janela"></div>
+    </div>
+    <!-- Adicionando Bootstrap JS e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

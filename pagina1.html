@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frutas e suas vitaminas</title>
+        <meta charset="utf-8">
+        <style>
+            .espaco{ clear: left }
+            h1{
+                font-family: sans-serif;
+                font-style: italic;
+                font-size: 40px;
+                color: #F93;
+                letter-spacing: -0.05;
+                text-shadow: 1px 1px 1px #666;
+            }
+            li, section{ color: #333; margin-bottom: 5px; }
+            section{ margin-bottom: 100px; }
+            figure{
+                float: left;
+                margin-left: 15px;
+                border: 4px solid #000;
+                margin-bottom: 10px;
+            }
+            figcaption{
+                background: #DDD;
+                font-family: sans-serif;
+                font-size: 11px;
+                padding: 3px;
+            }   
+        </style>
+    </head>   
+    <body>      
+        <h1> Reportagem Principal</h1>
+        <p><a href="http://www.uol.com.br"target="_blank">Site relacionado</a></p>
+        <h2> Melhores Frutas</h2>
+        <h3> As principas frutas do brasileiro</h3>
+        
+        <section id="interno">
+            <a href="#banana">Banana</a>|<a href="#maca">Maça</a>|<a href="#pera">Pera</a>|<a href="#melancia">Melancia</a>
+        </section>
+
+        <h3 id="banana">Banana</h3>
+        <figure>
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw0PDg8NDw0NDw8PDQ0ODQ8PDg8PDQ4PFRUXFxURFRgYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtMisBCgoKDg0OGhAQGy0lICUtLS0tLS0tLS0tMC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAgMGB//EADwQAAIBAgMFBQUGBAcBAAAAAAABAgMRBCExBRJBUXETIjJhgQZCobHRI1JykcHhM2KCkgcVFkOywvAU/8QAGwEBAAIDAQEAAAAAAAAAAAAAAAEDAgQFBgf/xAAvEQEAAgIBAwMBCAICAwAAAAAAAQIDEQQSITEFQVEiBhMyYXGRodGB8MHhFFKS/9oADAMBAAIRAxEAPwD7iAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAyAAAAAAAAAAAAAAAAw2AuRuAuSMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPl3+I21K1bEVdndo4UowpPdpSknUcs+/bWz93TmcbncrJjyfTPaPP/a/HWNbfN54DHxq70K1VtOPfdWalded+BNefhmv1LO8PZbC9qduYZ3nOGLpvN06tS9T0k1f4tEx6lhjxMx+sMeisvqns7tmnjsNHEQjKF3OFSnKzlTqRdpQdun5NHTx5IvXqhRavTOlmWMQAAAAAAAAAAAAAAAAAAAAAAAA418TTpq85KPK+r6Lia+flYcEbyWiGVaTbwr6u3aS0hOXnZL5nHyfaPjVnVYmf4XRxr+6t2l7Rz3WqUNxteOTTkui09TUz/aCb16cNdT8yn7jXl8229Rdeq1BVJ1Uu0qVIN71KN86kny4ebaKeH95atrz48ztjM6nspqlDGU5KMMTTmpOX8Sn31ZeTRfW+G8TM18fEp+8nykf5fjam7fEpLJPsobrS+L+JhGfBXxX92VZtbw+mf4XYGWFw1WhOV26zrJt3k1KKTv8A2nW9L5tc/VWPZhmpaupl7Y66gAAAAAAAAAAAAAAAAAAAAAA1nNJXbSS1bySMbWisbnweVPjdsN3jSX9b/RHmPUPtBFfo4/8A9f03MXF33uqpXbvJtt6tu7Z5LLmvlt1XmZlvVrFY1DWayK4lLz3tJj1Rp5ZyeUV5+Z0uFh67NTJLls2U1QdJJRjPdnWdvtK9TXek9bLhHRHQ5PMno+5r2r/vlV93Ed1RLDKpid7hTTS6vL6iLzTFr5YVp5ldxwDqRcINqpu71O3vTjaUYdJOO76lfDrGXN0T771+uiPpncL7YuOUezqxzi4pvzizW4fJtwuT1f4n9GzevXXT2VKpGSUou6aumfQcWWuWkXpO4lz5iYnUtyxAAAAAAAAAAAAAAAAAAAAHDF4uFKO9J9F7z6GryuZi41OvJP8A2zpS151Dz+Mxk6zzyhe6jw6vmzwvqXq2XlzrxX4/t0sOGuPv7uKichcMgRq9XgldvRcy2ld90SjwwEHLtKkYznwbV1D8KfzL5zzEdNe0MIoxj6fcbXitl5kYp+ruryR8PP7L2bVdWpUf8PdhCH8zXil+b+Z0c+ekY4r7q5pOtLxYaooycbqcd2UGtd6LUlb1Rp4uR93kraDHj3Pdx2HUlKDlu7q7atZco78rJfIs9QtFss2+e66ldRp6XB15wzi8uMX4WZ+mc3Ngv9E9vj2RlxVtC+w1dVIqS9VxT5HvuPyK56Rerm3rNZ1LsXsQAAAAAAAAAAAAAAABgCu2jtSNPuRtKpy4R6/Q4vqXrGPix0172/iP1bGHjzfvPhRylKct6bcm+Z4fk8nJnvN8k7l0a0rSNQ3sayWGwI9etbzbyS5sspTaWtGlbvPOT15dF5E3vHiEadZFcdyZ1CDiZXsubsjYpGu6usb7utKFlZZJZGNrb7s5jsnQjZFHmSI0jTgoyyyvd8s+JbO5jv7CTSlmiePMVyRMpnvC02TUtUlDhKN/Vfsez9HyayWp8xtocivaJXB6JqAAAAAAAAAAAAAAAGlWrGCcpNJLVt5FeTLTHWbXnUJiJmdQosdteU7xpXjHRz0k+nI8n6j6/Nt0wdo+ff8Aw38XE19V1fCnbqeWtabTuW26oxGJSCNI2JxCjbi3lGK1k+RZjxzZLWhQd9+ec3+UVyRlkvH4a+BIZSOFWZZWFc95RaS3puXBd1fqy606rpYlwWa6lMoTImOON2RKFjXnHq/kXR5kb0Z5IqtHfbJaYF/bUnz3vkep9IydWek/lLUzx9Er89e54AAAAAAAAAAAAACBtDadOl3fFPhFPTryOXz/AFXDxI15t8f38LsWC2T9FDiK1SrK830isorojxHM9Rzcq27z/j2h0seKuOOxGJoM5lsQhrKQShYvGKLUIrfqS8MFr1fJF+LDNu89oTpthMM09+b3qj1fCK+7HyGXLH4a+BKsa6HOrOxnWGFpQq1R2y1eSL6VTWunWhT3VYxtbcspSKKzuVWQ7ynZXFLanZravxc7ygvxMup4mUy60FoV2RCz2Wm60PJSfwO39nptblRHtES1+T2o9Ge8c0AAAAAAAAAAAGs5qKbbSSV23kkY2tFY3Pg/RQY/bMptwo5R0dR6v8PLqeV9R9e804/7/wBf238PE97/ALK6EEtc3q3zPKXvNp3Mt7x2h2ijBjLZshDnOaRMRMpVNbHzqydLDq7WU6j8EPqzcpgrSOrL+yUvAYGNJPNynLx1JeKT/ReRTmzzft4j4NpqRroaTkTEMZlDrT4vRF9asq192tGnd77/AKVyXMytbX0wlIsVIl3grIrnuOdWXAyrDKIQ496cpcF3V6a/G5fbtWIYymwVrFFpFpsOF6kpco2/Nnp/szi3kvf4jTT5lu0QvT2TQAAAAAAAAAADDYmdDyu09oOvJxi7UovJffa95/oeF9X9TtnvOOn4I/l1OPgikbny4wikcCZbMukVxI2xmSUkEaQsdtGnS1bcn4YRznJ+SLsXHvk8MkOOFr4jvVm6VLhSi+/L8T4dPkbE5MWGNU7z8oWtChGEVGEVGK0SWRp3yWvO7SOtitDWUiYgR6kyyIZRCLCPaSv7i0/mf0L5+iPzZJaKJRt0hHiYzLFmciIhMQiYirZXWryj1L8ddylth6VopdLmN7bnbFJKhe7CpWpuXGb+C/8AM996Bx/u+L1T5t3c3lX6r6+FmdxrAAAAAAAAAABT+1mOlh8DXrRjKW7FJ7qu4xk1GUuiTb9DW5lb2w2rTzMLcOuuOp4rZO2sPXco0pqThZSVnFr0fA8ByuFlwfjjW3YraJ8LqE7nPmEuWIxkKazl9WZ0xWt4g0iOWJreFdjD78leo+keHqXxGLF+LvPwidQkYPAUqT3knKb8VSb3pv14ehVk5F79vEfCE1I15Q2IGspExA4VaqSzLK1mWUQiK9V8VD/l+xf2xx+aUtJLJFEzsbQRjLFu5CITEOFSZnWEotH7Se97sco+fNl1/or0+6FgsjWli2pQcpKK1bSRscTBOfNXHHuxvbprMvV0KajFRWiSSPp2OkY6RWPEOPM7nboZoAAAAAAAAAADSrTjOLhJKUZJxlF5pp5NMT3Hzmt7I4nC42UsLh4zw06SUJRklOElJtwkpPz1XI4XqvCvnpHRG29xs9a76k2ts/GQjvVFGmm7JOacm/K1zz2f0y/Hp95l1H6z3/Zs15FbTqphcHCL3n3pfeevocrJmtPaPC3aYkUDdJEIYc0NDRyJ0nSNicXGCbbSLaYptPZlqESjCVZ70rqHBPJy68kX2muKNR5JWCSWRrd5QJX6AdDFOnKczKIEGtJzfZx0/wBx/wDU2axFI6pNJ9Gkoq3I1rW3O2MtpMxhC32FhdarXlD9Wex+z3Bmtfv7e/hocrJv6YXh6hpgAAAAAAAAAAAAc69SMIucnZRTbfkV5MlcdZtadRCYjfZ5DF4uVeo5vTSK4Rj9T576jzb8nLNp8e0fDo4aRWNMxeRzJhsjqJCKzI5yr300+Jl0RCWnaJGXSy0rsZtRKXZwTnUekI5vr5LzNrFxZmOq3aPlLpg9nSbVSu1KWsYLwQ+r8yMuetY6cf7+6JlZPLJGp5QJDYzchMOdSoZRAh1qrb3IeJ6v7q+pfWsRHVJpKwuHUEkinJebT3Jd5SsVxG2LrgMM600uHvPkjq+mcCeVliJ/DHlRnyxSv5vVUqailFKySskfQqUilYrXxDlzO523MkAAAAAAAAAAAAAeb9u3iY4VVKG64wqRlXg7Jyp5+83kk7fDk76fO4/3+Gce/KzFMRbcvJbN2zRqQ7RSVruPndaqx4Tk8O+O/RMd2/21uEh7T3soKy5vUq/8fXlbS22I4q+bZE0W6a4naVKlFylJJJXeaVkZY+PfJOohMzEd1dQq4jGP7O9KhxqtZy/AuPXTqbVqYuNH197fH9o6t+F/s7Z1KhG0Y5vOUnnOT5t8TQz8i+WfqEmc+CKIqMJcwMuQ0lHqVuRZFRH3pTe7H1l9C3UVjcpTMPh1BWt1fEovebImXWUkjHTHTFClKpJRWbZt8TiX5F+ijHJkikd3q8Bg1ShurX3nzZ9B4fEpxscUq5OTJN53KUbasAAAAAAAAAAAAABrOCknFpNNNNNXTXJgeW/0HgIyk6fbUovPs4TTpx/CmnY0OR6dizTudx+i2M1oJ+x1COarVvXcf6GlPoeL/wBp/hZXk2r7NIezdCOrqT6ySXwRlT0XBXzMz/v5Jnl3nwqtsYDDVHGhGjBxp1FOTtlvJSjZ/eyk73Od6jzMfH3h4/afef8AhsYaTb67ylUYqKS0srHlbTNp3LaZlO+SI0kjZCUMSmTpkjV8Qkm20ktXwRbTHMylFpKdV5XjT5vKU/oi63Tjj5kWlCmoqyRqWmZ8obykY6GcPQlUajFN3N7h8LJyb9NIV5MsUjcvT7OwEaS5yazf0Pd8Lg4+LTpr595crJlm8ppvKgAAAAAAAAAAAAAAABgDWSuBRe0uL7Cj3X9pUe5T8ucvRfFo5/qXJ+4wzMeZ7QuwY+uzzNGrGMb3srHgrxNrOpttHEuWmS58TGcek726qojDpZRDWVVExVKt2ltmlRlGnJ3qTaUYR1u02t56R0evob2DgZL1nJMarHurtkiJ0YelKo1Oo72zjFZQj9X5swveK9qMqz3WlOVsjTtDN2UzGKzM6hE9k3A7MqVXdq0ebO7wPRMmXVsnaGrm5Na9o8vR4TCQpq0V1fFnsMHHx4K9NIc295tO5SS9iAAAAAAAAAAAAAAAAAADAHl/bnYs69H/AOmhGU8Th05U4KUvtYayppXtd2yduCNPmcWvIx9M+V2HJNJeLw+N7RK8XBq6lGStOElk4tcGmeLy4JxWms+W9EzbumU5yeUYyfRNlUYL28RP7LYmI8puG2fiZ59m4LnLI3MPpXIyeK6j82FuTSvutsPsVLxNt+WSO5xfRcOP6r/VP8NTJy7W8I9X2Ow05Kbi96LcotapvK/nq/zOhl4dclJp31+SmM1olIh7NyWlR/2fucfJ9n6z+G/8L68vXskUvZ6fGov7f3MK/ZyN/Vf+GU82faFphNkUqebW8+bOxxvTOPx/wx3/ADa+TPe/mVhGKR0NKWwAAAAAAAAAAAAAAAAAAAAAGAOFTCU5PedOG8/e3Y3/ADMJx1md6hO5c3heSJisQgWEJ0OsMPFDQ6qKXAkZAAAMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAGQAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/2Q=="
+                 width="150"
+                 height="150"
+                 title="Foto da fruta banana"
+                 alt= "Banana"
+                 class="foto">
+            <figcaption>Penca de banana (Foto: Diogo Auad)</figcaption>
+        </figure> 
+        <h4 class="espaco">Banana</h4>
+        <p>Banana, pacoba ou pacova é uma pseudobaga da bananeira, uma planta herbácea vivaz 
+            acaule da família Musaceae. São cultivadas em 130 países. Originárias do sudeste da 
+            Ásia são atualmente cultivadas em praticamente todas as regiões tropicais do planeta.
+            Banana-da-terra: é o tipo mais comprido —podendo ter até 30 centímetros — e costuma ser 
+            consumida cozida ou frita em receitas salgadas. O formato é mais achatado e é menos doce. 
+            Ela não é tão popular e não deve ser consumida in natura, por ser mais difícil de digerir. 
+            Uma unidade (cerca de 80 g) contém 111 kcal, 26, 9 g de carboidratos, 1,2 g de fibras, 23,7 mg 
+            de magnésio, 262 mg de potássio e 12,6 mg de vitamina C. - Banana-ouro: é um fruto bastante 
+            pequeno, de 5 a 7 centímetros, e possui polpa amarela de sabor doce e casca fina. Uma unidade 
+            (40 g) contém 46 kcal, 11,5 g de carboidratos, 12, 1 g de magnésio, 99 mg de potássio e 2,9 mg 
+            de vitamina </p>
+        <h3 id="maca">Maça</h3>
+        <figure>
+            <img src="https://hortifruti.com.br/media/catalog/product/cache/90a67334732b2408839e146d4f241496/1/0/100171-maca-red-unidade.jpg"
+                 width="150"
+                 height="150"
+                 title="Foto da fruta maça"
+                 alt= "Maça"
+                 class="foto">
+            <figcaption>Maça (Foto: Diogo Auad)</figcaption>
+        </figure>
+        <h4 class="espaco">Maça</h4>
+        <p>A maçã é o pseudofruto pomáceo da macieira (Malus domestica), árvore da família Rosaceae. É um dos pseudofrutos de árvore mais cultivados, e o mais conhecido dos muitos membros do género Malus que são usados pelos seres humanos. As maçãs crescem em pequenas árvores, de folha caducifólia que florescem na Primavera e produzem fruto no Outono. A árvore é originária da Ásia Ocidental, onde o seu ancestral selvagem, Malus sieversii, ainda é encontrado atualmente. As maçãs têm sido cultivadas há milhares de anos na Ásia e Europa, tendo sido trazidas para a América do Norte pelos colonizadores europeus. As maçãs têm estado presentes na mitologia e religiões de muitas culturas, incluindo as tradições nórdica, grega e cristã. Em 2010, o genoma da fruta foi descodificado, levando a uma nova compreensão no controle de doenças e na reprodução seletiva durante a produção da maçã.Existem mais de 7.500 plantações conhecidas de maçãs, resultando numa gama de características desejadas.</p>
+        <br>       
+        <h3 id="pera">Pera</h3>
+        <figure>
+            <img src="https://scfoods.fbitsstatic.net/img/p/pera-williams-unidade-70671/257173.jpg?w=800&h=800&v=no-change&qs=ignore"
+                 width="150"
+                 height="150"
+                 title="Foto da fruta pera"
+                 alt= "Pera"
+                 class="foto">
+        <figcaption>Pera (Foto: Diogo Auad)</figcaption>
+        </figure>
+        <h4 class="espaco">Pera</h4>
+        <p>O acento circunflexo de pera atuava como um acento diferencial, distinguindo o substantivo pera da preposição arcaica pera. Contudo, o atual acordo aboliu o acento diferencial de vários pares de palavras, cuja distinção passou a ser feita apenas pelo contexto em que ocorrem. Outras palavras que perderam o acento diferencial:</p>    
+        <br>
+        <h3 id="melancia">Melancia</h3>
+        <figure>
+            <img src="https://revistacampoenegocios.com.br/wp-content/uploads/2020/11/Melancia-01.jpg"
+                 width="150"
+                 height="150"
+                 title="Foto da fruta melancia"
+                 alt= "Melancia"
+                 class="foto">
+            <figcaption>Melancia (Foto: Diogo Auad)</figcaption>
+        </figure>
+        <h4 class="espaco">Melancia</h4>
+        <p>Tem efeito diurético: Com sua elevada quantidade de água, a melancia aumenta a produção de urina, tendo um efeito diurético. Ainda, apresenta propriedades antioxidantes, antimicrobianas e anti-inflamatórias. De acordo com Cindy, tais propriedades protegem as células do rim contra lesões oxidativas, inflamações e infecções - processos que poderiam levar à urolitíase (formação de pedra no rim). A nutricionista comenta ainda que a melancia evita tal formação de cálculo renal também por ser capaz de reduzir o pH da urina, como também os níveis de uréia e creatinina no sangue. Previne doenças cardiovasculares e câncer: De acordo com a nutricionista Marisa Resende Coutinho, a melancia contém vitamina C e licopeno, poderosos antioxidantes que diminuem os riscos de câncer. Cindy complementa afirmando que, por equilibrar as funções do organismo e ter ação antioxidante, anti-inflamatória e analgésica, a fruta também ajuda a combater doenças cardiovasculares (como infarto e hipertensão).</p>
+        <p><a href="pagina2.html">Quer conhecer a uva?</a></p>   
+    </body>
+</html>

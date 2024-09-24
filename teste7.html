@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante</title>
+    
+    <!-- Adicionando o CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        html { background-color:#F6F6F6; }
+        
+        main { margin: 10px 0; border:1px solid #ddd; background-color:#FFF; font-family:Arial, Helvetica, sans-serif; }
+        header { margin-bottom: 20px; }
+        
+        nav { background-color: #5D240A; }
+        nav ul { list-style:none; margin:0; padding:4px; }
+        nav ul li { display:inline-block; }
+        nav ul li a { font-size: 0.85em; text-decoration: none; color: #FFF; padding: 4px 20px; }
+        nav ul li a:hover { background-color: #B4531A; }
+        
+        article { margin:30px 20px; }
+        
+        article header hgroup h1 {
+            margin:0;
+        }
+        
+        article header hgroup h5 {
+            margin:0; font-size: 1.1em; color:#ccc;
+            font-weight: 100;
+        }
+        
+        aside {
+            border-top:1px solid #CC6633;
+            border-bottom:1px solid #CC6633;
+            padding:40px 10px 0;
+            font-style: italic;
+            margin-bottom: 20px;
+            background: url(../imagens/aspas.gif) no-repeat;
+        }
+        
+        aside p {
+            color:#999;   
+        }
+        
+        #apoio { margin-top:30px; }        
+        footer { font-size:0.75em; text-align:center; background-color:#ECECEC; padding:5px; }
+        
+        h1, h2, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:#C63; font-style:italic; letter-spacing:-0.05em; }
+        h1 { font-size:2.6em; margin:0 5px; }
+        h4 { font-size:1.6em; margin:0 5px; }
+        p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8; }
+        
+        .fotos_apoio img { width: 100%; height: auto; }
+    </style>
+</head>
+
+<body>
+    <!-- Adicionando o container do Bootstrap -->
+    <div class="container">
+        <main>
+            <header>
+                <img src="../imagens/topo_principal2.jpg" class="img-fluid">
+            </header>
+
+            <nav>
+                <ul class="nav">
+                  <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="info.html">Informações</a></li>
+                  <li class="nav-item"><a class="nav-link" href="eventos.html">Eventos Especiais</a></li>
+                  <li class="nav-item"><a class="nav-link" href="card.html">Cardápio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="bebidas.html">Bebidas</a></li>
+                  <li class="nav-item"><a class="nav-link" href="sobremesa.html">Sobremesas</a></li>
+                  <li class="nav-item"><a class="nav-link" href="local.htm">Localização</a></li>
+                </ul>
+            </nav>
+
+            <div class="row">
+                <article class="col-md-8">
+                    <header>
+                        <hgroup>
+                            <h1>Restaurante Review</h1>
+                            <h5>Os principais especialistas falam sobre o restaurante</h5>
+                        </hgroup>
+                    </header>
+                    
+                    <p>Francisco e Jane Bienni, fundadores e proprietários do restaurante de classe mundial de São Francisco, têm muitos motivos para comemorar. O Café Townsend é um dos favoritos de São Francisco há mais de 19 anos, e seu mais recente empreendimento de restaurante, o Café Isabella, em breve se expandirá para mais locais. A maior comemoração deles é a recente formatura de seu filho Steven no aclamado Culinary Institute of America de Nova York. Os clientes de São Francisco devem se juntar aos Bienni em sua celebração porque esta formatura significa uma seleção de menu ainda melhor no Café Townsend, já que Steven está emprestando seus talentos culinários modernos e inovadores à cozinha tradicional do Velho Mundo de seu pai.</p>
+                    
+                    <aside>
+                        <p>
+                            O que estou fazendo é usar ingredientes italianos sazonais e combiná-los para criar pratos com um toque moderno que irão revigorar o paladar dos nossos clientes, diz Steven. 
+                        </p>
+                    </aside>
+                    
+                    <p>Aqueles que desfrutaram do Café Townsend e de sua culinária de classe mundial não devem se preocupar - o excelente serviço de mesa, as deliciosas especialidades regionais e os favoritos do menu permanecem. Mas as últimas novidades do menu de Steven são algo que você não vai querer perder.</p>
+                    <p>&quot;A utilização de marisco regional com acompanhamento das nossas ervas frescas é algo que me entusiasma.&quot;</p>
+
+                    <h4>Aperitivos</h4>
+                    <ul>
+                        <li>Presunto italiano curado em fatias finas com juliana de maçãs com frisee em vinagrete de sementes de papoula de vinho tinto, guarnecido com crostini de queijo de cabra.</li>
+                        <li>Salmão e Rúcula - Salmão fumado com queijo de cabra e rúcula</li>
+                    </ul>
+
+                    <h4>Massa</h4>
+                    <ul>
+                        <li>Penne com Molho e Provolone - Massa em forma de pena com molho de tomate, alho, manjericão fresco e queijo provolone</li>
+                        <li>Macarrão - &quot;Orelhinhas&quot; de macarrão com lula e camarão tigre ao molho light de tomate com azeite</li>
+                        <li>Gnocchi al Forno con Salsiccia - Almofadas caseiras de nhoque de batata e ricota em um farto molho de tomate com doce linguiça italiana e paleta de porco, assada com mussarela fresca</li>
+                    </ul>
+                    <h4>Prato principal</h4>
+                    <ul>
+                        <li>Peito de frango - Peito de frango desossado recheado com queijo fontina e presunto em vinho branco</li>
+                        <li>Frango - Metade de frango semi-desossado refogado com alho, alecrim, mostarda e sálvia em molho fresco com gengibre picante</li>
+                        <li>Vitela - Medalhões de vitela salteados com mix de cogumelos ao molho de vinho marsala com um toque de creme e tomate picado, coroados com camarão gigante</li>
+                    </ul>
+                </article>
+
+                <div id="apoio" class="col-md-4">
+                    <section class="fotos_apoio mb-4">
+                        <h2>Mapa</h2>
+                        <img src="../imagens/mapa_como_chegar.gif" class="img-fluid" />
+                    </section>
+                    
+                    <section class="fotos_apoio mb-4">
+                        <h2>Fotos</h2>
+                        <img src="../imagens/fotos.jpg" class="img-fluid" />
+                    </section>
+                    
+                    <section class="fotos_apoio">
+                        <h2>Vinhos</h2>
+                        <img src="../imagens/vinhos.jpg" class="img-fluid" />    
+                    </section>
+                </div>
+            </div>
+
+            <footer>Restaurante Sabor Perfeito - Rua Pedro Figueira Alves, 245 - São Paulo-SP</footer>
+        </main>
+    </div>
+
+    <!-- Adicionando o JS do Bootstrap e dependências -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
